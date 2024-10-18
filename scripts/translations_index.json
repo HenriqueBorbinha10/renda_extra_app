@@ -26,6 +26,8 @@
     "submit": "Entrer"
   },
   "pt": {
+    "name": "Nome",
+    "email": "Email", 
     "welcome": "Bem-vindo ao <span>MVL App</span>, preencha seus dados abaixo <span>para continuar!</span> 💲",
     "age": "Idade",
     "height": "Altura (em cm)",

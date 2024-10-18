@@ -22,6 +22,8 @@ function loadImages(lang) {
 
 function applyTranslations(translations) {
     document.getElementById('welcomeMessage').innerHTML = translations.welcome;
+    document.getElementById('inputName').placeholder = translations.name;
+    document.getElementById('inputEmail').placeholder = translations.email;
     document.getElementById('inputIdade').placeholder = translations.age;
     document.getElementById('inputAltura').placeholder = translations.height;
     document.getElementById('inputPeso').placeholder = translations.weight;
@@ -43,7 +45,7 @@ function applyTranslations(translations) {
         select.appendChild(option);
     });
 
-    document.querySelector('button[type="submit"]').textContent = translations.submit;
+    // document.querySelector('button[type="submit"]').textContent = translations.submit;
 }
 
 // Detecta o idioma do navegador ou usa 'es' (Espanhol) como padrão
